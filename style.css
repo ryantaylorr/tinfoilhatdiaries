@@ -2,9 +2,6 @@ body {
   margin: 0px;
   padding: 0px;
   border: 0px;   
-   }
-
-body {
   background: #F0F3FF;
   color: #FB773C;
 }
@@ -23,10 +20,12 @@ p {
 }
 
 footer {
-  padding:12px;
+  padding:0px 0px 1px 0px;
   bottom: 0;
   position: absolute;
+
 }
+
 header {
   display: flex;
   padding-bottom: 50px;
@@ -46,6 +45,15 @@ nav {
   font-weight: 400;
   font-style: normal;
   font-weight: bold;
+  margin-bottom: 0px
+}
+.navlowertext {
+  font-size: 14px;
+  margin-top: 0px;
+  padding-top: 0px;
+  border: 0px;
+  text-align: center;
+  font-weight: 900;
 }
 
 ul, li {
@@ -57,5 +65,10 @@ ul, li {
 
 ul {
   padding: 50px 0px 50px 0px;
+}
+
+.footertext {
+  margin: 11px;
+  padding: 0;
 }
 
