@@ -1,13 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+   }
 body {
-  margin: 0px;
-  padding: 0px;
-  border: 0px;   
   background: #F0F3FF;
   color: #FB773C;
 }
 
 h1 {
-  padding: 150px 0px 20px 60px;
+  padding: 50px 0px 20px 60px;
   color: #211951;
   font-family: Helvetica;
   text-decoration: underline;
@@ -27,31 +29,39 @@ footer {
 }
 
 header {
-  display: flex;
   padding-bottom: 50px;
 }
+
 nav {
   background: #836FFF;
   width: 100%;
 }
 
-.navtext {
+.navtextright {
   text-align: right;
   font-size: 48px;
   color: #211951;
   font-family: "Shadows Into Light", cursive;
+  font-weight: 100;
+  font-style: normal;
+  font-weight: bold;
+  padding-right: 25px; 
+}
+.navtextleft {
+  text-align: left;
+  font-size: 38px;
+  color: #211951;
+  font-family: "Shadows Into Light";
   font-weight: 400;
   font-style: normal;
   font-weight: bold;
   margin-bottom: 0px;
-  padding-right: 25px;
+  padding: 25px 0px 0px 5px;
+  display: inline-block;
 }
 .navlowertext {
   font-size: 14px;
-  margin-top: 0px;
-  padding-top: 0px;
   padding-right: 20px;
-  border: 0px;
   text-align: right;
   font-weight: 900;
 }
@@ -74,5 +84,9 @@ ul {
 
 .footer {
   padding-top: 50px;
+}
+
+a {
+  display: inline-block;
 }
 
