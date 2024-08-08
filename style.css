@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-  padding: 15px 0px 0px 60px;
+  padding: 15px 0px 25px 40px;
   color: #211951;
   font-family: Helvetica;
   text-decoration: underline;
@@ -19,14 +19,14 @@ h1 {
 h3 {
 color: #211951;
 margin: 0;
-padding: 10px 0px 4px 20px;
+padding: 10px 0px 15px 20px;
 
 }
 
 p {
   font-family: Arial, Geneva, Helvetica, sans-serif;
   font-size: 19px;
-  padding-left: 50px;
+  padding-left: 20px;
   color: #211951;
 
 }
@@ -80,6 +80,10 @@ nav {
   color: #A3D8FF;
 }
 
+.strikethrough {
+  text-decoration: line-through;
+}
+
 ul, li {
   font-weight: bold;
   padding-top: 10px;
@@ -88,7 +92,7 @@ ul, li {
 }
 
 ul {
-  padding: 50px 0px 50px 0px;
+  padding: 15px 0px 50px 0px;
 }
 
 .footertext {
