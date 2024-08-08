@@ -3,13 +3,14 @@
     padding: 0;
     border: 0;
    }
+
 body {
   background: #F0F3FF;
   color: #FB773C;
 }
 
 h1 {
-  padding: 50px 0px 20px 60px;
+  padding: 60px 0px 20px 60px;
   color: #211951;
   font-family: Helvetica;
   text-decoration: underline;
@@ -29,12 +30,13 @@ footer {
 }
 
 header {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 nav {
   background: #836FFF;
   width: 100%;
+  padding-bottom: 8px;
 }
 
 .navtextright {
@@ -86,7 +88,4 @@ ul {
   padding-top: 50px;
 }
 
-a {
-  display: inline-block;
-}
 
